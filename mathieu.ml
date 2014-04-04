@@ -55,7 +55,7 @@ let cherche_max v e m n =
   let coo = ref (0,0) in
   for i = 0 to m-1 do
     for j = 0 to n-1 do
-      if (not e.(i).(j)) && (v.(i).(j) > !max) then (
+      if (not e.(i).(j)) && (v.(i).(j) >= !max) then (
 	max := v.(i).(j);
 	coo := (i,j);
       )
@@ -106,12 +106,14 @@ let calcul mat m n =
     done
   done;
   Printf.printf "Il y a %d cases à peindre.\n" (!nbcasesapeindre);
+  let tmp = ref false in
   (try (
   while true do
-    let (i,j) = cherche_premier estok m n in
+    let (i,j) = (if not !tmp then cherche_max voisins estok m n else cherche_premier estok m n ;) in
     if (i,j) = (0,0) then raise Exit;
     let nb = voisins.(i).(j) in
-    Printf.printf "case choisie : %d %d \n" i j;
+    if nb = 0 then tmp := true;
+(*    Printf.printf "case choisie : %d %d \n" i j; *)
     instr := ("p",i,j,nb)::(!instr);
     incr nbinstr;
     for k = i-nb to i+nb do
