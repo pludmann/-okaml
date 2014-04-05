@@ -1,5 +1,5 @@
 let rec ratio_order (a1,b2,d1,c1,l1) (a2,b2,d2,c2,l2) =
-(l1/.c1)<=(l2/.c2);;
+(l1/.c1)>(l2/.c2);;
 
 rStreets = Sort.list ratio_order streets;;
 
