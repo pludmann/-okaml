@@ -123,16 +123,18 @@ let output ans res=
     car_out ans (res.(i));
   done;;
 
-let rank=110000;;
+let rank=1323248;;
 
-let ans= open_out "ansrand" ;;
+let ans= open_out "ansborn" ;;
 let _=
   let rres=ref [||]
   and rscore=ref 0 in
   while !rscore<rank do
+    unseens:=streets;
     let (score,res)=asol () in
     rres:=res;
     rscore:=score;
+    print_endline (Printf.sprintf "Nouveau score : %d" !rscore) 
   done;
 output ans (!rres);
   close_out ans;;
