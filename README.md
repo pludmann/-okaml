@@ -1,2 +1,4 @@
-w
-Math: J'ai écrit un truc.
+#OKamL
+======
+Go HashCats!
+Go Dler2Pr0n!
