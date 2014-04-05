@@ -149,7 +149,7 @@ let calcul inter rues temps nbcar start tab liste=
 	if t2 < 0 then bloque := true
 	else (
 	  marque (List.rev chemin2) (!position) visites liste;
-	  trajet := chemin@(!trajet);
+	  trajet := chemin2@(!trajet);
 	  position := List.hd (!trajet);
 	  tps := t2;
 	);
