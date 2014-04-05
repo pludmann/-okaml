@@ -1,3 +1,5 @@
+
+
 let lit_int s =
   try (
     let i = String.index s ' ' in
@@ -55,6 +57,7 @@ let unseens=ref rStreets;;
 
 let lastissue=cStreets;;
 
+
 let rec seek_dir from = function
   |[]-> (Stop,0,[])
   |(a,b,d,c,l)::q when d=1&a=from->(Inter(b),c,q)
@@ -77,51 +80,59 @@ let rec last_dir from = function
 
 
 let rec trajet timer from =
-if timer=0 then []
+if timer<=0 then []
 else
-  let (nexti,c,uns)=seek_dir from !unseens in
-  match nexti with
-  |(Stop)->let (nexti,c)=last_dir from cStreets in
-	 if timer-c>=0
-	 then
-	   begin
-	     nexti::(trajet (timer-c) nexti);
-	   end
-	 else []
-  |(Inter(i))->if timer-c>=0
-    then
-      begin
-	unseens:=uns;
-	i::(trajet (timer-c) i);
-      end
-    else
-      begin
-	let (nexti,c)=last_dir from cStreets in
-	if timer-c>=0
-	then
-	  begin
-	    nexti::(trajet (timer-c) nexti);
-	  end
-	else []
-      end;;
+  begin
+    let (nexti,c,uns)=seek_dir from !unseens in
+    match nexti with
+    |(Stop)->let (nexti,c)=last_dir from cStreets in
+	     if timer-c>=0
+	     then
+	       begin
+		 nexti::(trajet (timer-c) nexti);
+	       end
+	     else []
+    |(Inter(i))->if timer-c>=0
+      then
+	begin
+	  unseens:=uns;
+	  i::(trajet (timer-c) i);
+	end
+      else
+	begin
+	  let (nexti,c)=last_dir from cStreets in
+	  if timer-c>=0
+	  then
+	    begin
+	      nexti::(trajet (timer-c) nexti);
+	    end
+	  else []
+	end
+  end;;
 
 let ans =  open_out "ans";;
 
 
+
+
 let rec car_out = function
   |[]->()
-  |x::q->output_string ans (Printf.sprintf "%d\n" x);;
+  |x::q->print_endline (Printf.sprintf  "%d" x);
+    car_out q
+(*output_string ans (Printf.sprintf "%d\n" x)*);;
 
 
 let output ()=
-  output_string ans "coucou";
-  output_string ans (Printf.sprintf "%d\n" nbcar);
+  print_endline (Printf.sprintf "%d" nbcar);
+(*  output_string ans (Printf.sprintf "%d\n" nbcar); *)
   for i=1 to nbcar
   do
     let pathw= (trajet t s) in
     let path=s::pathw in
-    output_string ans (Printf.sprintf "%d\n" (List.length path));
+    print_endline (Printf.sprintf  "%d" (List.length path));
+(*    output_string ans (Printf.sprintf "%d\n" (List.length path)); *)
     car_out path;
   done;;
 
-let _=output();;
+let _=output();
+close_out ans;;
