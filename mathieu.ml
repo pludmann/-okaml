@@ -47,7 +47,7 @@ v;;
 (**** OUTPUT ****)
 let ecrit_fichier trajets =
   let n = Array.length trajets in
-  let f = open_out "ans_math" in
+  let f = open_out "ans_math10" in
   output_string f ((string_of_int n)^"\n");
   let rec out l = match l with
     | [] -> ()
@@ -131,7 +131,7 @@ let calcul inter rues temps nbcar start tab liste=
   let position = ref start in
   let tps = ref temps in
   let visites = Array.make rues false in
-  let constante = 8 in
+  let constante = 10 in
   let bloque = ref false in
   let trajet = ref [start] in
   for voiture = 0 to nbcar - 1 do

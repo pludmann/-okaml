@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gnm:Workbook xmlns:gnm="http://www.gnumeric.org/v10.dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gnumeric.org/v9.xsd">
+  <gnm:Version Epoch="1" Major="12" Minor="6" Full="1.12.6"/>
+  <gnm:Attributes>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::show_horizontal_scrollbar</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::show_vertical_scrollbar</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::show_notebook_tabs</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::do_auto_completion</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::is_protected</gnm:name>
+      <gnm:value>FALSE</gnm:value>
+    </gnm:Attribute>
+  </gnm:Attributes>
+  <office:document-meta xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:ooo="http://openoffice.org/2004/office" office:version="1.2">
+    <office:meta>
+      <dc:date>2014-04-06T10:15:30Z</dc:date>
+      <meta:creation-date>2014-04-06T09:32:52Z</meta:creation-date>
+    </office:meta>
+  </office:document-meta>
+  <gnm:Calculation ManualRecalc="0" EnableIteration="1" MaxIterations="100" IterationTolerance="0.001" FloatRadix="2" FloatDigits="53"/>
+  <gnm:SheetNameIndex>
+    <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">Feuille1</gnm:SheetName>
+    <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">Feuille2</gnm:SheetName>
+    <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">Feuille3</gnm:SheetName>
+  </gnm:SheetNameIndex>
+  <gnm:Geometry Width="1024" Height="305"/>
+  <gnm:Sheets>
+    <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
+      <gnm:Name>Feuille1</gnm:Name>
+      <gnm:MaxCol>4</gnm:MaxCol>
+      <gnm:MaxRow>54</gnm:MaxRow>
+      <gnm:Zoom>1</gnm:Zoom>
+      <gnm:Names>
+        <gnm:Name>
+          <gnm:name>Print_Area</gnm:name>
+          <gnm:value>#REF!</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+        <gnm:Name>
+          <gnm:name>Sheet_Title</gnm:name>
+          <gnm:value>&quot;Feuille1&quot;</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+      </gnm:Names>
+      <gnm:PrintInformation>
+        <gnm:Margins>
+          <gnm:top Points="120" PrefUnit="mm"/>
+          <gnm:bottom Points="120" PrefUnit="mm"/>
+          <gnm:left Points="72" PrefUnit="mm"/>
+          <gnm:right Points="72" PrefUnit="mm"/>
+          <gnm:header Points="72" PrefUnit="mm"/>
+          <gnm:footer Points="72" PrefUnit="mm"/>
+        </gnm:Margins>
+        <gnm:Scale type="percentage" percentage="100"/>
+        <gnm:vcenter value="0"/>
+        <gnm:hcenter value="0"/>
+        <gnm:grid value="0"/>
+        <gnm:even_if_only_styles value="0"/>
+        <gnm:monochrome value="0"/>
+        <gnm:draft value="0"/>
+        <gnm:titles value="0"/>
+        <gnm:do_not_print value="0"/>
+        <gnm:print_range value="GNM_PRINT_ACTIVE_SHEET"/>
+        <gnm:order>d_then_r</gnm:order>
+        <gnm:orientation>portrait</gnm:orientation>
+        <gnm:Header Left="" Middle="&amp;[TAB]" Right=""/>
+        <gnm:Footer Left="" Middle="Page &amp;[PAGE]" Right=""/>
+        <gnm:paper>iso_a4</gnm:paper>
+        <gnm:comments placement="GNM_PRINT_COMMENTS_IN_PLACE"/>
+        <gnm:errors PrintErrorsAs="GNM_PRINT_ERRORS_AS_DISPLAYED"/>
+      </gnm:PrintInformation>
+      <gnm:Styles>
+        <gnm:StyleRegion startCol="0" startRow="0" endCol="2" endRow="0">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="1" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="1" endCol="2" endRow="54">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="55" endCol="1" endRow="65535">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="2" startRow="55" endCol="2" endRow="65535">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="3" startRow="0" endCol="3" endRow="0">
+          <gnm:Style HAlign="GNM_HALIGN_RIGHT" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="1" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="3" startRow="1" endCol="3" endRow="65535">
+          <gnm:Style HAlign="GNM_HALIGN_RIGHT" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="0" endCol="255" endRow="4">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="5" endCol="4" endRow="7">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="8" endCol="255" endRow="12">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="13" endCol="4" endRow="13">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="14" endCol="255" endRow="14">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="15" endCol="4" endRow="15">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="16" endCol="255" endRow="17">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="18" endCol="4" endRow="18">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="19" endCol="255" endRow="20">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="21" endCol="4" endRow="22">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="23" endCol="255" endRow="36">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="37" endCol="4" endRow="37">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="38" endCol="255" endRow="38">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="39" endCol="4" endRow="39">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="40" endCol="255" endRow="65535">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="5" startRow="5" endCol="255" endRow="7">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="5" startRow="13" endCol="255" endRow="13">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="5" startRow="15" endCol="255" endRow="15">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="5" startRow="18" endCol="255" endRow="18">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="5" startRow="21" endCol="255" endRow="22">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="5" startRow="37" endCol="255" endRow="37">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="5" startRow="39" endCol="255" endRow="39">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+      </gnm:Styles>
+      <gnm:Cols DefaultSizePts="48">
+        <gnm:ColInfo No="0" Unit="23.25" HardSize="1"/>
+        <gnm:ColInfo No="1" Unit="172.5" HardSize="1"/>
+        <gnm:ColInfo No="2" Unit="75.75"/>
+        <gnm:ColInfo No="3" Unit="48.75" HardSize="1"/>
+        <gnm:ColInfo No="4" Unit="329.2"/>
+      </gnm:Cols>
+      <gnm:Rows DefaultSizePts="12.75">
+        <gnm:RowInfo No="0" Unit="13.5" Count="55"/>
+      </gnm:Rows>
+      <gnm:Selections CursorCol="1" CursorRow="10">
+        <gnm:Selection startCol="1" startRow="10" endCol="1" endRow="10"/>
+      </gnm:Selections>
+      <gnm:Cells>
+        <gnm:Cell Row="0" Col="0" ValueType="60">#</gnm:Cell>
+        <gnm:Cell Row="0" Col="1" ValueType="60">Team</gnm:Cell>
+        <gnm:Cell Row="0" Col="2" ValueType="60">Frozen score</gnm:Cell>
+        <gnm:Cell Row="0" Col="3" ValueType="60">Score</gnm:Cell>
+        <gnm:Cell Row="0" Col="4" ValueType="60" ValueFormat="@[bold=1:0:8]">Repo URL</gnm:Cell>
+        <gnm:Cell Row="1" Col="0" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="1" Col="1" ValueType="60">ens{,imag}</gnm:Cell>
+        <gnm:Cell Row="1" Col="2" ValueType="40">1923588</gnm:Cell>
+        <gnm:Cell Row="1" Col="3" ValueType="40">1923588</gnm:Cell>
+        <gnm:Cell Row="1" Col="4" ValueType="60">https://github.com/Elarnon/north-american-octo-wight</gnm:Cell>
+        <gnm:Cell Row="2" Col="0" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="2" Col="1" ValueType="60">Thomas</gnm:Cell>
+        <gnm:Cell Row="2" Col="2" ValueType="40">1916551</gnm:Cell>
+        <gnm:Cell Row="2" Col="3" ValueType="40">1916551</gnm:Cell>
+        <gnm:Cell Row="3" Col="0" ValueType="40">3</gnm:Cell>
+        <gnm:Cell Row="3" Col="1" ValueType="60">Normalisation</gnm:Cell>
+        <gnm:Cell Row="3" Col="2" ValueType="40">1877278</gnm:Cell>
+        <gnm:Cell Row="3" Col="3" ValueType="40">1911614</gnm:Cell>
+        <gnm:Cell Row="4" Col="0" ValueType="40">4</gnm:Cell>
+        <gnm:Cell Row="4" Col="1" ValueType="60">&lt;$&gt;&lt;*&gt;</gnm:Cell>
+        <gnm:Cell Row="4" Col="2" ValueType="40">1860290</gnm:Cell>
+        <gnm:Cell Row="4" Col="3" ValueType="40">1905157</gnm:Cell>
+        <gnm:Cell Row="5" Col="0" ValueType="40">5</gnm:Cell>
+        <gnm:Cell Row="5" Col="1" ValueType="60">4chan</gnm:Cell>
+        <gnm:Cell Row="5" Col="2" ValueType="40">1807338</gnm:Cell>
+        <gnm:Cell Row="5" Col="3" ValueType="40">1904044</gnm:Cell>
+        <gnm:Cell Row="6" Col="0" ValueType="40">6</gnm:Cell>
+        <gnm:Cell Row="6" Col="1" ValueType="60">HashLoft</gnm:Cell>
+        <gnm:Cell Row="6" Col="2" ValueType="40">1112300</gnm:Cell>
+        <gnm:Cell Row="6" Col="3" ValueType="40">1881442</gnm:Cell>
+        <gnm:Cell Row="7" Col="0" ValueType="40">7</gnm:Cell>
+        <gnm:Cell Row="7" Col="1" ValueType="60">ENS Ulm 1</gnm:Cell>
+        <gnm:Cell Row="7" Col="2" ValueType="40">1313224</gnm:Cell>
+        <gnm:Cell Row="7" Col="3" ValueType="40">1881377</gnm:Cell>
+        <gnm:Cell Row="8" Col="0" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="8" Col="1" ValueType="60">Public Static Team</gnm:Cell>
+        <gnm:Cell Row="8" Col="2" ValueType="40">1846686</gnm:Cell>
+        <gnm:Cell Row="8" Col="3" ValueType="40">1872001</gnm:Cell>
+        <gnm:Cell Row="8" Col="4" ValueType="60">https://github.com/luc-clement/google-paris-hash-code</gnm:Cell>
+        <gnm:Cell Row="9" Col="0" ValueType="40">9</gnm:Cell>
+        <gnm:Cell Row="9" Col="1" ValueType="60">Pascal &amp; Stéphane</gnm:Cell>
+        <gnm:Cell Row="9" Col="2" ValueType="40">1362978</gnm:Cell>
+        <gnm:Cell Row="9" Col="3" ValueType="40">1833310</gnm:Cell>
+        <gnm:Cell Row="10" Col="0" ValueType="40">10</gnm:Cell>
+        <gnm:Cell Row="10" Col="1" ValueType="60">cat /dev/urandom | gcc</gnm:Cell>
+        <gnm:Cell Row="10" Col="2" ValueType="40">1643243</gnm:Cell>
+        <gnm:Cell Row="10" Col="3" ValueType="40">1799418</gnm:Cell>
+        <gnm:Cell Row="11" Col="0" ValueType="40">11</gnm:Cell>
+        <gnm:Cell Row="11" Col="1" ValueType="60">ElephantROSE</gnm:Cell>
+        <gnm:Cell Row="11" Col="2" ValueType="40">1772699</gnm:Cell>
+        <gnm:Cell Row="11" Col="3" ValueType="40">1772699</gnm:Cell>
+        <gnm:Cell Row="11" Col="4" ValueType="60">https://github.com/gamazeps/ParisHashCode</gnm:Cell>
+        <gnm:Cell Row="12" Col="0" ValueType="40">12</gnm:Cell>
+        <gnm:Cell Row="12" Col="1" ValueType="60">Souney</gnm:Cell>
+        <gnm:Cell Row="12" Col="2" ValueType="40">1772191</gnm:Cell>
+        <gnm:Cell Row="12" Col="3" ValueType="40">1772191</gnm:Cell>
+        <gnm:Cell Row="13" Col="0" ValueType="40">13</gnm:Cell>
+        <gnm:Cell Row="13" Col="1" ValueType="60">Progglers</gnm:Cell>
+        <gnm:Cell Row="13" Col="2" ValueType="40">1647511</gnm:Cell>
+        <gnm:Cell Row="13" Col="3" ValueType="40">1758643</gnm:Cell>
+        <gnm:Cell Row="14" Col="0" ValueType="40">14</gnm:Cell>
+        <gnm:Cell Row="14" Col="1" ValueType="60">Gyoza</gnm:Cell>
+        <gnm:Cell Row="14" Col="2" ValueType="40">1740220</gnm:Cell>
+        <gnm:Cell Row="14" Col="3" ValueType="40">1740220</gnm:Cell>
+        <gnm:Cell Row="15" Col="0" ValueType="40">15</gnm:Cell>
+        <gnm:Cell Row="15" Col="1" ValueType="60">GTAV</gnm:Cell>
+        <gnm:Cell Row="15" Col="2" ValueType="40">1649041</gnm:Cell>
+        <gnm:Cell Row="15" Col="3" ValueType="40">1667360</gnm:Cell>
+        <gnm:Cell Row="16" Col="0" ValueType="40">16</gnm:Cell>
+        <gnm:Cell Row="16" Col="1" ValueType="60">Mashbart</gnm:Cell>
+        <gnm:Cell Row="16" Col="2" ValueType="40">1531642</gnm:Cell>
+        <gnm:Cell Row="16" Col="3" ValueType="40">1662085</gnm:Cell>
+        <gnm:Cell Row="17" Col="0" ValueType="40">17</gnm:Cell>
+        <gnm:Cell Row="17" Col="1" ValueType="60">TeamX</gnm:Cell>
+        <gnm:Cell Row="17" Col="2" ValueType="40">1632284</gnm:Cell>
+        <gnm:Cell Row="17" Col="3" ValueType="40">1632284</gnm:Cell>
+        <gnm:Cell Row="17" Col="4" ValueType="60">https://github.com/nikkitousen/google-hashcode</gnm:Cell>
+        <gnm:Cell Row="18" Col="0" ValueType="40">18</gnm:Cell>
+        <gnm:Cell Row="18" Col="1" ValueType="60">#enseirbEnorme</gnm:Cell>
+        <gnm:Cell Row="18" Col="2" ValueType="40">1609520</gnm:Cell>
+        <gnm:Cell Row="18" Col="3" ValueType="40">1609520</gnm:Cell>
+        <gnm:Cell Row="19" Col="0" ValueType="40">19</gnm:Cell>
+        <gnm:Cell Row="19" Col="1" ValueType="60">Banane</gnm:Cell>
+        <gnm:Cell Row="19" Col="2" ValueType="40">1571686</gnm:Cell>
+        <gnm:Cell Row="19" Col="3" ValueType="40">1571686</gnm:Cell>
+        <gnm:Cell Row="19" Col="4" ValueType="60">https://github.com/Artifere/HashCodeBanane</gnm:Cell>
+        <gnm:Cell Row="20" Col="0" ValueType="40">20</gnm:Cell>
+        <gnm:Cell Row="20" Col="1" ValueType="60">TianShi</gnm:Cell>
+        <gnm:Cell Row="20" Col="2" ValueType="40">1507633</gnm:Cell>
+        <gnm:Cell Row="20" Col="3" ValueType="40">1562525</gnm:Cell>
+        <gnm:Cell Row="20" Col="4" ValueType="60">https://github.com/X-Wei/GoogleHashCode2014tianshi</gnm:Cell>
+        <gnm:Cell Row="21" Col="0" ValueType="40">21</gnm:Cell>
+        <gnm:Cell Row="21" Col="1" ValueType="60">Dler2Pr0n</gnm:Cell>
+        <gnm:Cell Row="21" Col="2" ValueType="40">1247373</gnm:Cell>
+        <gnm:Cell Row="21" Col="3" ValueType="40">1550307</gnm:Cell>
+        <gnm:Cell Row="22" Col="0" ValueType="40">22</gnm:Cell>
+        <gnm:Cell Row="22" Col="1" ValueType="60">Duplex</gnm:Cell>
+        <gnm:Cell Row="22" Col="2" ValueType="40">1352495</gnm:Cell>
+        <gnm:Cell Row="22" Col="3" ValueType="40">1482778</gnm:Cell>
+        <gnm:Cell Row="23" Col="0" ValueType="40">23</gnm:Cell>
+        <gnm:Cell Row="23" Col="1" ValueType="60">Les chevaliers de l'établi rond</gnm:Cell>
+        <gnm:Cell Row="23" Col="2" ValueType="40">1406423</gnm:Cell>
+        <gnm:Cell Row="23" Col="3" ValueType="40">1480800</gnm:Cell>
+        <gnm:Cell Row="23" Col="4" ValueType="60">https://github.com/Zanoellia/etablirond</gnm:Cell>
+        <gnm:Cell Row="24" Col="0" ValueType="40">24</gnm:Cell>
+        <gnm:Cell Row="24" Col="1" ValueType="60">Generalized Algebraic Data Tribe</gnm:Cell>
+        <gnm:Cell Row="24" Col="2" ValueType="40">1389678</gnm:Cell>
+        <gnm:Cell Row="24" Col="3" ValueType="40">1467811</gnm:Cell>
+        <gnm:Cell Row="25" Col="0" ValueType="40">25</gnm:Cell>
+        <gnm:Cell Row="25" Col="1" ValueType="60">Yoshteam</gnm:Cell>
+        <gnm:Cell Row="25" Col="2" ValueType="40">1342039</gnm:Cell>
+        <gnm:Cell Row="25" Col="3" ValueType="40">1463959</gnm:Cell>
+        <gnm:Cell Row="26" Col="0" ValueType="40">26</gnm:Cell>
+        <gnm:Cell Row="26" Col="1" ValueType="60">Atchoum</gnm:Cell>
+        <gnm:Cell Row="26" Col="2" ValueType="40">1461829</gnm:Cell>
+        <gnm:Cell Row="26" Col="3" ValueType="40">1461829</gnm:Cell>
+        <gnm:Cell Row="26" Col="4" ValueType="60">https://github.com/laurentguilbert/weekend-at-google</gnm:Cell>
+        <gnm:Cell Row="27" Col="0" ValueType="40">27</gnm:Cell>
+        <gnm:Cell Row="27" Col="1" ValueType="60">OKaml</gnm:Cell>
+        <gnm:Cell Row="27" Col="2" ValueType="40">1323248</gnm:Cell>
+        <gnm:Cell Row="27" Col="3" ValueType="40">1456969</gnm:Cell>
+        <gnm:Cell Row="27" Col="4" ValueType="60">https://github.com/pludmann/-okaml</gnm:Cell>
+        <gnm:Cell Row="28" Col="0" ValueType="40">28</gnm:Cell>
+        <gnm:Cell Row="28" Col="1" ValueType="60">buzzcoders</gnm:Cell>
+        <gnm:Cell Row="28" Col="2" ValueType="40">1430218</gnm:Cell>
+        <gnm:Cell Row="28" Col="3" ValueType="40">1440818</gnm:Cell>
+        <gnm:Cell Row="28" Col="4" ValueType="60">https://github.com/cedriclam/buzzcoders</gnm:Cell>
+        <gnm:Cell Row="29" Col="0" ValueType="40">29</gnm:Cell>
+        <gnm:Cell Row="29" Col="1" ValueType="60">Chocolateam</gnm:Cell>
+        <gnm:Cell Row="29" Col="2" ValueType="40">1433611</gnm:Cell>
+        <gnm:Cell Row="29" Col="3" ValueType="40">1434597</gnm:Cell>
+        <gnm:Cell Row="30" Col="0" ValueType="40">30</gnm:Cell>
+        <gnm:Cell Row="30" Col="1" ValueType="60">Xcoder</gnm:Cell>
+        <gnm:Cell Row="30" Col="2" ValueType="40">1339804</gnm:Cell>
+        <gnm:Cell Row="30" Col="3" ValueType="40">1418902</gnm:Cell>
+        <gnm:Cell Row="31" Col="0" ValueType="40">31</gnm:Cell>
+        <gnm:Cell Row="31" Col="1" ValueType="60">ATC2</gnm:Cell>
+        <gnm:Cell Row="31" Col="2" ValueType="40">1301830</gnm:Cell>
+        <gnm:Cell Row="31" Col="3" ValueType="40">1406907</gnm:Cell>
+        <gnm:Cell Row="32" Col="0" ValueType="40">32</gnm:Cell>
+        <gnm:Cell Row="32" Col="1" ValueType="60">Team Rocket</gnm:Cell>
+        <gnm:Cell Row="32" Col="2" ValueType="40">1390147</gnm:Cell>
+        <gnm:Cell Row="32" Col="3" ValueType="40">1390147</gnm:Cell>
+        <gnm:Cell Row="32" Col="4" ValueType="60">https://github.com/povauboin/hashcode</gnm:Cell>
+        <gnm:Cell Row="33" Col="0" ValueType="40">33</gnm:Cell>
+        <gnm:Cell Row="33" Col="1" ValueType="60">coredumped</gnm:Cell>
+        <gnm:Cell Row="33" Col="2" ValueType="40">184758</gnm:Cell>
+        <gnm:Cell Row="33" Col="3" ValueType="40">1389821</gnm:Cell>
+        <gnm:Cell Row="34" Col="0" ValueType="40">34</gnm:Cell>
+        <gnm:Cell Row="34" Col="1" ValueType="60">noobTeam</gnm:Cell>
+        <gnm:Cell Row="34" Col="2" ValueType="40">1333421</gnm:Cell>
+        <gnm:Cell Row="34" Col="3" ValueType="40">1356152</gnm:Cell>
+        <gnm:Cell Row="35" Col="0" ValueType="40">35</gnm:Cell>
+        <gnm:Cell Row="35" Col="1" ValueType="60">LSE</gnm:Cell>
+        <gnm:Cell Row="35" Col="2" ValueType="40">1283130</gnm:Cell>
+        <gnm:Cell Row="35" Col="3" ValueType="40">1348154</gnm:Cell>
+        <gnm:Cell Row="36" Col="0" ValueType="40">36</gnm:Cell>
+        <gnm:Cell Row="36" Col="1" ValueType="60">NoException</gnm:Cell>
+        <gnm:Cell Row="36" Col="2" ValueType="40">1328091</gnm:Cell>
+        <gnm:Cell Row="36" Col="3" ValueType="40">1328091</gnm:Cell>
+        <gnm:Cell Row="37" Col="0" ValueType="40">37</gnm:Cell>
+        <gnm:Cell Row="37" Col="1" ValueType="60">BadHash</gnm:Cell>
+        <gnm:Cell Row="37" Col="2" ValueType="40">1315027</gnm:Cell>
+        <gnm:Cell Row="37" Col="3" ValueType="40">1315027</gnm:Cell>
+        <gnm:Cell Row="38" Col="0" ValueType="40">38</gnm:Cell>
+        <gnm:Cell Row="38" Col="1" ValueType="60">Rhodes</gnm:Cell>
+        <gnm:Cell Row="38" Col="2" ValueType="40">1111202</gnm:Cell>
+        <gnm:Cell Row="38" Col="3" ValueType="40">1314258</gnm:Cell>
+        <gnm:Cell Row="39" Col="0" ValueType="40">39</gnm:Cell>
+        <gnm:Cell Row="39" Col="1" ValueType="60">M415K1CK1M3P1N6</gnm:Cell>
+        <gnm:Cell Row="39" Col="2" ValueType="40">995532</gnm:Cell>
+        <gnm:Cell Row="39" Col="3" ValueType="40">1288249</gnm:Cell>
+        <gnm:Cell Row="40" Col="0" ValueType="40">40</gnm:Cell>
+        <gnm:Cell Row="40" Col="1" ValueType="60">MontyPython</gnm:Cell>
+        <gnm:Cell Row="40" Col="2" ValueType="40">1129347</gnm:Cell>
+        <gnm:Cell Row="40" Col="3" ValueType="40">1275107</gnm:Cell>
+        <gnm:Cell Row="40" Col="4" ValueType="60">https://github.com/QuentinFiard/gphc</gnm:Cell>
+        <gnm:Cell Row="41" Col="0" ValueType="40">41</gnm:Cell>
+        <gnm:Cell Row="41" Col="1" ValueType="60">Danton</gnm:Cell>
+        <gnm:Cell Row="41" Col="2" ValueType="40">1212389</gnm:Cell>
+        <gnm:Cell Row="41" Col="3" ValueType="40">1258447</gnm:Cell>
+        <gnm:Cell Row="42" Col="0" ValueType="40">42</gnm:Cell>
+        <gnm:Cell Row="42" Col="1" ValueType="60">ml_beam</gnm:Cell>
+        <gnm:Cell Row="42" Col="2" ValueType="40">1066010</gnm:Cell>
+        <gnm:Cell Row="42" Col="3" ValueType="40">1241899</gnm:Cell>
+        <gnm:Cell Row="43" Col="0" ValueType="40">43</gnm:Cell>
+        <gnm:Cell Row="43" Col="1" ValueType="60">Hashcats</gnm:Cell>
+        <gnm:Cell Row="43" Col="2" ValueType="40">1204965</gnm:Cell>
+        <gnm:Cell Row="43" Col="3" ValueType="40">1204965</gnm:Cell>
+        <gnm:Cell Row="43" Col="4" ValueType="60">https://github.com/VLanvin/HashCode</gnm:Cell>
+        <gnm:Cell Row="44" Col="0" ValueType="40">44</gnm:Cell>
+        <gnm:Cell Row="44" Col="1" ValueType="60">Booyah</gnm:Cell>
+        <gnm:Cell Row="44" Col="2" ValueType="40">1108689</gnm:Cell>
+        <gnm:Cell Row="44" Col="3" ValueType="40">1200311</gnm:Cell>
+        <gnm:Cell Row="45" Col="0" ValueType="40">45</gnm:Cell>
+        <gnm:Cell Row="45" Col="1" ValueType="60">Stat'isfaction</gnm:Cell>
+        <gnm:Cell Row="45" Col="2" ValueType="40">1154836</gnm:Cell>
+        <gnm:Cell Row="45" Col="3" ValueType="40">1186582</gnm:Cell>
+        <gnm:Cell Row="45" Col="4" ValueType="60">https://github.com/michel57/googleHashCode2014</gnm:Cell>
+        <gnm:Cell Row="46" Col="0" ValueType="40">46</gnm:Cell>
+        <gnm:Cell Row="46" Col="1" ValueType="60">Turing Machine Operators</gnm:Cell>
+        <gnm:Cell Row="46" Col="2" ValueType="40">1107079</gnm:Cell>
+        <gnm:Cell Row="46" Col="3" ValueType="40">1154776</gnm:Cell>
+        <gnm:Cell Row="46" Col="4" ValueType="60">https://github.com/google-hash-code-paris-2014-tmo/cpp-template</gnm:Cell>
+        <gnm:Cell Row="47" Col="0" ValueType="40">47</gnm:Cell>
+        <gnm:Cell Row="47" Col="1" ValueType="60">ENSTAckoverflow</gnm:Cell>
+        <gnm:Cell Row="47" Col="2" ValueType="40">835255</gnm:Cell>
+        <gnm:Cell Row="47" Col="3" ValueType="40">1112950</gnm:Cell>
+        <gnm:Cell Row="47" Col="4" ValueType="60">https://github.com/ENSTAckoverflow/HashCode</gnm:Cell>
+        <gnm:Cell Row="48" Col="0" ValueType="40">48</gnm:Cell>
+        <gnm:Cell Row="48" Col="1" ValueType="60">easy</gnm:Cell>
+        <gnm:Cell Row="48" Col="2" ValueType="40">925003</gnm:Cell>
+        <gnm:Cell Row="48" Col="3" ValueType="40">1074316</gnm:Cell>
+        <gnm:Cell Row="48" Col="4" ValueType="60">https://github.com/mavi88/easy</gnm:Cell>
+        <gnm:Cell Row="49" Col="0" ValueType="40">49</gnm:Cell>
+        <gnm:Cell Row="49" Col="1" ValueType="60">Trotskteam</gnm:Cell>
+        <gnm:Cell Row="49" Col="2" ValueType="40">924898</gnm:Cell>
+        <gnm:Cell Row="49" Col="3" ValueType="40">924898</gnm:Cell>
+        <gnm:Cell Row="50" Col="0" ValueType="40">50</gnm:Cell>
+        <gnm:Cell Row="50" Col="1" ValueType="60">MLDev</gnm:Cell>
+        <gnm:Cell Row="50" Col="2" ValueType="40">5550</gnm:Cell>
+        <gnm:Cell Row="50" Col="3" ValueType="40">864538</gnm:Cell>
+        <gnm:Cell Row="51" Col="0" ValueType="40">51</gnm:Cell>
+        <gnm:Cell Row="51" Col="1" ValueType="60">rays of life</gnm:Cell>
+        <gnm:Cell Row="51" Col="2" ValueType="40">26280</gnm:Cell>
+        <gnm:Cell Row="51" Col="3" ValueType="40">843869</gnm:Cell>
+        <gnm:Cell Row="52" Col="0" ValueType="40">52</gnm:Cell>
+        <gnm:Cell Row="52" Col="1" ValueType="60">VPlatoon</gnm:Cell>
+        <gnm:Cell Row="52" Col="2" ValueType="40">248553</gnm:Cell>
+        <gnm:Cell Row="52" Col="3" ValueType="40">481014</gnm:Cell>
+        <gnm:Cell Row="53" Col="0" ValueType="40">53</gnm:Cell>
+        <gnm:Cell Row="53" Col="1" ValueType="60">Pimacs</gnm:Cell>
+        <gnm:Cell Row="53" Col="2" ValueType="40">34706</gnm:Cell>
+        <gnm:Cell Row="53" Col="3" ValueType="40">46839</gnm:Cell>
+        <gnm:Cell Row="54" Col="0" ValueType="40">54</gnm:Cell>
+        <gnm:Cell Row="54" Col="1" ValueType="60">Avatac</gnm:Cell>
+        <gnm:Cell Row="54" Col="2" ValueType="40">1187</gnm:Cell>
+        <gnm:Cell Row="54" Col="3" ValueType="40">1187</gnm:Cell>
+      </gnm:Cells>
+      <gnm:SheetLayout TopLeft="A47"/>
+      <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0"/>
+    </gnm:Sheet>
+    <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
+      <gnm:Name>Feuille2</gnm:Name>
+      <gnm:MaxCol>0</gnm:MaxCol>
+      <gnm:MaxRow>0</gnm:MaxRow>
+      <gnm:Zoom>1</gnm:Zoom>
+      <gnm:Names>
+        <gnm:Name>
+          <gnm:name>Print_Area</gnm:name>
+          <gnm:value>#REF!</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+        <gnm:Name>
+          <gnm:name>Sheet_Title</gnm:name>
+          <gnm:value>&quot;Feuille2&quot;</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+      </gnm:Names>
+      <gnm:PrintInformation>
+        <gnm:Margins>
+          <gnm:top Points="120" PrefUnit="mm"/>
+          <gnm:bottom Points="120" PrefUnit="mm"/>
+          <gnm:left Points="72" PrefUnit="mm"/>
+          <gnm:right Points="72" PrefUnit="mm"/>
+          <gnm:header Points="72" PrefUnit="mm"/>
+          <gnm:footer Points="72" PrefUnit="mm"/>
+        </gnm:Margins>
+        <gnm:Scale type="percentage" percentage="100"/>
+        <gnm:vcenter value="0"/>
+        <gnm:hcenter value="0"/>
+        <gnm:grid value="0"/>
+        <gnm:even_if_only_styles value="0"/>
+        <gnm:monochrome value="0"/>
+        <gnm:draft value="0"/>
+        <gnm:titles value="0"/>
+        <gnm:do_not_print value="0"/>
+        <gnm:print_range value="GNM_PRINT_ACTIVE_SHEET"/>
+        <gnm:order>d_then_r</gnm:order>
+        <gnm:orientation>portrait</gnm:orientation>
+        <gnm:Header Left="" Middle="&amp;[TAB]" Right=""/>
+        <gnm:Footer Left="" Middle="Page &amp;[PAGE]" Right=""/>
+        <gnm:paper>iso_a4</gnm:paper>
+        <gnm:comments placement="GNM_PRINT_COMMENTS_IN_PLACE"/>
+        <gnm:errors PrintErrorsAs="GNM_PRINT_ERRORS_AS_DISPLAYED"/>
+      </gnm:PrintInformation>
+      <gnm:Styles>
+        <gnm:StyleRegion startCol="0" startRow="0" endCol="255" endRow="65535">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+      </gnm:Styles>
+      <gnm:Cols DefaultSizePts="48"/>
+      <gnm:Rows DefaultSizePts="12.75"/>
+      <gnm:Selections CursorCol="0" CursorRow="0">
+        <gnm:Selection startCol="0" startRow="0" endCol="0" endRow="0"/>
+      </gnm:Selections>
+      <gnm:Cells/>
+      <gnm:SheetLayout TopLeft="A1"/>
+      <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0"/>
+    </gnm:Sheet>
+    <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
+      <gnm:Name>Feuille3</gnm:Name>
+      <gnm:MaxCol>0</gnm:MaxCol>
+      <gnm:MaxRow>0</gnm:MaxRow>
+      <gnm:Zoom>1</gnm:Zoom>
+      <gnm:Names>
+        <gnm:Name>
+          <gnm:name>Print_Area</gnm:name>
+          <gnm:value>#REF!</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+        <gnm:Name>
+          <gnm:name>Sheet_Title</gnm:name>
+          <gnm:value>&quot;Feuille3&quot;</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+      </gnm:Names>
+      <gnm:PrintInformation>
+        <gnm:Margins>
+          <gnm:top Points="120" PrefUnit="mm"/>
+          <gnm:bottom Points="120" PrefUnit="mm"/>
+          <gnm:left Points="72" PrefUnit="mm"/>
+          <gnm:right Points="72" PrefUnit="mm"/>
+          <gnm:header Points="72" PrefUnit="mm"/>
+          <gnm:footer Points="72" PrefUnit="mm"/>
+        </gnm:Margins>
+        <gnm:Scale type="percentage" percentage="100"/>
+        <gnm:vcenter value="0"/>
+        <gnm:hcenter value="0"/>
+        <gnm:grid value="0"/>
+        <gnm:even_if_only_styles value="0"/>
+        <gnm:monochrome value="0"/>
+        <gnm:draft value="0"/>
+        <gnm:titles value="0"/>
+        <gnm:do_not_print value="0"/>
+        <gnm:print_range value="GNM_PRINT_ACTIVE_SHEET"/>
+        <gnm:order>d_then_r</gnm:order>
+        <gnm:orientation>portrait</gnm:orientation>
+        <gnm:Header Left="" Middle="&amp;[TAB]" Right=""/>
+        <gnm:Footer Left="" Middle="Page &amp;[PAGE]" Right=""/>
+        <gnm:paper>iso_a4</gnm:paper>
+        <gnm:comments placement="GNM_PRINT_COMMENTS_IN_PLACE"/>
+        <gnm:errors PrintErrorsAs="GNM_PRINT_ERRORS_AS_DISPLAYED"/>
+      </gnm:PrintInformation>
+      <gnm:Styles>
+        <gnm:StyleRegion startCol="0" startRow="0" endCol="255" endRow="65535">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+      </gnm:Styles>
+      <gnm:Cols DefaultSizePts="48"/>
+      <gnm:Rows DefaultSizePts="12.75"/>
+      <gnm:Selections CursorCol="0" CursorRow="0">
+        <gnm:Selection startCol="0" startRow="0" endCol="0" endRow="0"/>
+      </gnm:Selections>
+      <gnm:Cells/>
+      <gnm:SheetLayout TopLeft="A1"/>
+      <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0"/>
+    </gnm:Sheet>
+  </gnm:Sheets>
+  <gnm:UIData SelectedTab="0"/>
+</gnm:Workbook>
